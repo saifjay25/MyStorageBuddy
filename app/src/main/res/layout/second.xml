@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:background="@color/black"
+        tools:context=".secondPage"
+        >
+    <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_marginTop="0dp" android:layout_below="@+id/upload"
+            android:id="@+id/recycler" android:layout_alignParentBottom="true" android:layout_marginBottom="0dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:elevation="6dp"
+            android:backgroundTint="@color/yellow"
+            android:id="@+id/upload"
+            app:pressedTranslationZ="12dp"
+            android:src="@drawable/download"
+            android:visibility="invisible"
+            android:layout_marginRight="100dp" android:layout_marginBottom="95dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:elevation="6dp"
+            android:backgroundTint="@color/yellow"
+            android:id="@+id/signout"
+            app:pressedTranslationZ="18dp"
+            android:src="@drawable/ll"
+            android:visibility="invisible"
+            android:layout_marginRight="125dp"
+            android:layout_marginBottom="15dp"/>
+
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="@dimen/tabs"
+            android:layout_marginBottom="115dp"
+            android:elevation="6dp"
+            android:backgroundTint="@color/yellow"
+            android:id="@+id/folder"
+            app:pressedTranslationZ="12dp"
+            android:src="@drawable/uploader"
+            android:visibility="invisible"
+    />
+
+    <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginRight="@dimen/tabs"
+            android:layout_marginBottom="16dp"
+            android:src = "@drawable/plus"
+            android:elevation="6dp"
+            android:backgroundTint="@color/yellow"
+            android:id="@+id/floating"
+            app:pressedTranslationZ="12dp"
+    />
+
+</android.support.design.widget.CoordinatorLayout>

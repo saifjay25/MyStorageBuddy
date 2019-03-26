@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "839740309043",
+    "firebase_url": "https://storagebuddy-b073a.firebaseio.com",
+    "project_id": "storagebuddy-b073a",
+    "storage_bucket": "storagebuddy-b073a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:839740309043:android:13c3c6a65bcbec53",
+        "android_client_info": {
+          "package_name": "com.something.storageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "839740309043-d84uh3f81nsacqgr59h0fdfeiqq1q39i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.something.storageapp",
+            "certificate_hash": "df2c3b113d44be5080d3a2a5919bd8f31b77c6d9"
+          }
+        },
+        {
+          "client_id": "839740309043-vcgsi5l4n4urek06r6cpakmqg8pbo6k6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCDRhNtc9zy98oDmFK3RWF6_uI_sEp9RFM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "839740309043-vcgsi5l4n4urek06r6cpakmqg8pbo6k6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
